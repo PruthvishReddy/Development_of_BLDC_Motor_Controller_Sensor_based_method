@@ -27,16 +27,3 @@ To use the sensor-based BLDC motor controller in your project or application, fo
 [Control]: Implement control algorithms to set the desired speed or position of the motor.
 [Feedback]: Monitor sensor feedback to ensure accurate control and detect any faults.
 [Safety]: Implement safety measures to handle unexpected situations or faults.
-python
-Copy code
-# Example code snippet demonstrating how to use the sensor-based BLDC motor controller.
-import bldc_controller
-
-controller = bldc_controller.SensorBasedBLDCController()
-controller.initialize()
-controller.set_speed(1000)
-Documentation
-Detailed documentation for the sensor-based BLDC motor controller, including user manuals, datasheets, and technical specifications, can be found in the Documentation directory.
-
-Contributing
-Contributions to the project are welcome! Please read the CONTRIBUTING.md file for guidelines.
